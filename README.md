@@ -1,8 +1,5 @@
 # 방사선학적 근육 두께와 골다공증 위험도 분석 (Radiographic Muscle Thickness and Osteoporosis)
 
-아래 그대로 `README.md`에 붙여넣으면 됩니다.
-
-````markdown
 # Estimation of Bone Mineral Density through 2D Radiographic Mid-Calf Muscle Thickness
 
 이 저장소는 **2D 방사선 영상에서 측정한 mid-calf muscle thickness**를 이용해  
@@ -101,7 +98,6 @@
 
 ```bash
 pip install pandas numpy matplotlib scipy seaborn scikit-learn statsmodels openpyxl
-````
 
 ---
 
@@ -162,8 +158,3 @@ ROC 기반 cutoff와 성별별 cutoff도 함께 제안됩니다.
 
 연구학생: 이재우, 김승한
 지도교수: 이순철 
-
-```
-
-원하시면 제가 이걸 더 **짧은 버전**, 또는 **논문/연구 저장소 느낌으로 조금 더 전문적으로 다듬은 버전**으로 바로 다시 써드릴게요.
-```
