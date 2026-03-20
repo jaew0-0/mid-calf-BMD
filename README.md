@@ -4,8 +4,7 @@
 
 이 저장소는 **2D 방사선 영상에서 측정한 mid-calf muscle thickness**를 이용해  
 골밀도(BMD) 및 골다공증과의 연관성을 분석하고, 논문용 figure / table을 생성하는 Python 코드 모음입니다.  
-업로드된 코드들은 대상자 선정, 기술통계, 상관분석, tertile 분석, 로지스틱 회귀, ROC 분석, 보조분석 figure 생성에 사용됩니다. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
-
+업로드된 코드들은 대상자 선정, 기술통계, 상관분석, tertile 분석, 로지스틱 회귀, ROC 분석, 보조분석 figure 생성에 사용됩니다.
 ---
 
 ## Project overview
@@ -16,10 +15,6 @@
 - muscle-only thickness가 total thickness보다 더 좋은 지표인지 비교
 - lateral / AP / combined measurement의 성능 비교
 - osteoporosis 예측을 위한 practical cutoff 제시
-
-발표자료 기준으로 전체 분석 흐름은  
-**코호트 구성 → baseline table → 상관분석 → tertile 분석 → 다변량 회귀 → ROC 분석 → supplementary 분석** 순서로 정리되어 있습니다. :contentReference[oaicite:3]{index=3}
-
 ---
 
 ## File structure
