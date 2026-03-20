@@ -1,5 +1,3 @@
-# 방사선학적 근육 두께와 골다공증 위험도 분석 (Radiographic Muscle Thickness and Osteoporosis)
-
 # Estimation of Bone Mineral Density through 2D Radiographic Mid-Calf Muscle Thickness
 
 이 저장소는 **2D 방사선 영상에서 측정한 mid-calf muscle thickness**를 이용해  
