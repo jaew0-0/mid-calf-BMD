@@ -21,54 +21,54 @@
 
 - `table_1.py`  
   연구 대상자의 baseline characteristics를 정리한 **Table 1**을 생성합니다.  
-  성별에 따른 비교와 p-value 계산이 포함되어 있으며, 결과는 Excel과 PNG로 저장됩니다. :contentReference[oaicite:4]{index=4}
+  성별에 따른 비교와 p-value 계산이 포함되어 있으며, 결과는 Excel과 PNG로 저장됩니다.
 
 - `figure_1.py`  
   전체 대상자에서 연구 제외 기준을 적용해 **flowchart summary**를 만들고,  
-  exclusion reason 및 study population 정보를 Excel로 저장합니다. :contentReference[oaicite:5]{index=5}
+  exclusion reason 및 study population 정보를 Excel로 저장합니다. 
 
 - `figure_3.py`  
   AP / lateral / AP+lateral 측정값과 minimum T-score 간의 관계를  
-  남성, 여성, 전체 환자군으로 나누어 2x3 scatter plot 형태로 시각화합니다. :contentReference[oaicite:6]{index=6}
+  남성, 여성, 전체 환자군으로 나누어 2x3 scatter plot 형태로 시각화합니다.
 
 - `figure_4.py`  
   성별 및 촬영 view별 Pearson correlation coefficient를 정리하고,  
-  이를 bar plot으로 시각화합니다. :contentReference[oaicite:7]{index=7}
+  이를 bar plot으로 시각화합니다. 
 
 - `figure_5.py`  
   lateral muscle thickness를 tertile로 나누어  
-  minimum T-score 분포와 osteoporosis prevalence를 비교합니다. :contentReference[oaicite:8]{index=8}
+  minimum T-score 분포와 osteoporosis prevalence를 비교합니다. 
 
 - `figure_6.py`  
   lateral muscle thickness와 lumbar / hip T-score 간의 상관관계를 비교합니다.  
-  scatter plot과 correlation comparison bar chart를 생성합니다. :contentReference[oaicite:9]{index=9}
+  scatter plot과 correlation comparison bar chart를 생성합니다.
 
 - `figure_7.py`  
   lateral muscle thickness, sex, age, BMI를 포함한  
-  **multivariable logistic regression**을 수행하고 forest plot을 생성합니다. :contentReference[oaicite:10]{index=10}
+  **multivariable logistic regression**을 수행하고 forest plot을 생성합니다.
 
 - `figure_8s7.py`  
   lateral muscle thickness의 골다공증 예측 성능을 평가하는  
   ROC curve 및 cutoff, sensitivity, specificity를 계산합니다.  
-  supplementary ROC comparison도 함께 생성합니다. :contentReference[oaicite:11]{index=11}
+  supplementary ROC comparison도 함께 생성합니다. 
 
 - `figure_9.py`  
   성별에 따라 lateral muscle thickness의 ROC curve를 분리하여  
-  gender-specific cutoff를 제시합니다. :contentReference[oaicite:12]{index=12}
+  gender-specific cutoff를 제시합니다. 
 
 ---
 
 ## Supplementary analysis scripts
 
 - `figure_s4.py`  
-  lumbar 및 hip 영역에서 lowest T-score가 기록된 해부학적 부위 분포를 시각화합니다. :contentReference[oaicite:13]{index=13}
+  lumbar 및 hip 영역에서 lowest T-score가 기록된 해부학적 부위 분포를 시각화합니다. 
 
 - `figure_s56.py`  
-  연령대 및 BMI subgroup별로 lateral muscle thickness와 minimum T-score의 상관성을 분석합니다. :contentReference[oaicite:14]{index=14}
-
+  연령대 및 BMI subgroup별로 lateral muscle thickness와 minimum T-score의 상관성을 분석합니다.
+  
 - `figure_s123.py`  
   lateral total, AP muscle, AP total 기준 tertile 분석을 추가로 수행하여  
-  supplementary figure를 생성합니다. :contentReference[oaicite:15]{index=15}
+  supplementary figure를 생성합니다. 
 
 ---
 
@@ -77,11 +77,11 @@
 코드는 동일 폴더 내 CSV 파일을 기준으로 실행되도록 작성되어 있습니다.
 
 - `dataset_1.csv`  
-  cohort selection, exclusion reason 정리, baseline table 생성에 사용됩니다. :contentReference[oaicite:16]{index=16} :contentReference[oaicite:17]{index=17}
+  cohort selection, exclusion reason 정리, baseline table 생성에 사용됩니다.
 
 - `dataset_2.csv`  
   main figure 및 supplementary figure 생성에 사용됩니다.  
-  상관분석, tertile 분석, logistic regression, ROC 분석이 포함됩니다. :contentReference[oaicite:18]{index=18} :contentReference[oaicite:19]{index=19} :contentReference[oaicite:20]{index=20}
+  상관분석, tertile 분석, logistic regression, ROC 분석이 포함됩니다. 
 
 ---
 
